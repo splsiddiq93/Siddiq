@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE29D65C1F1FC9DE00F0E288 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29D65B1F1FC9DE00F0E288 /* DetailsViewController.swift */; };
+		CE9447A21F276816000C4200 /* PeerssViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9447A11F276816000C4200 /* PeerssViewController.swift */; };
 		CEB51DC91F1E031E003D757D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB51DC81F1E031E003D757D /* AppDelegate.swift */; };
 		CEB51DCB1F1E031E003D757D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB51DCA1F1E031E003D757D /* ViewController.swift */; };
 		CEB51DCE1F1E031E003D757D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB51DCC1F1E031E003D757D /* Main.storyboard */; };
@@ -14,6 +16,9 @@
 		CEB51DD31F1E031E003D757D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB51DD11F1E031E003D757D /* LaunchScreen.storyboard */; };
 		CEB51DDE1F1E031E003D757D /* webviewAuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB51DDD1F1E031E003D757D /* webviewAuthTests.swift */; };
 		CEB51DE91F1E031E003D757D /* webviewAuthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB51DE81F1E031E003D757D /* webviewAuthUITests.swift */; };
+		CEBA2B431F21D4C50012B3E9 /* LogOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBA2B421F21D4C50012B3E9 /* LogOutViewController.swift */; };
+		CEBA2B451F21E1400012B3E9 /* DecisionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBA2B441F21E13F0012B3E9 /* DecisionViewController.swift */; };
+		CED583771F28BA140040D724 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED583761F28BA140040D724 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE29D65B1F1FC9DE00F0E288 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		CE9447A11F276816000C4200 /* PeerssViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeerssViewController.swift; sourceTree = "<group>"; };
 		CEB51DC51F1E031E003D757D /* webviewAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = webviewAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB51DC81F1E031E003D757D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEB51DCA1F1E031E003D757D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,9 @@
 		CEB51DE41F1E031E003D757D /* webviewAuthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webviewAuthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB51DE81F1E031E003D757D /* webviewAuthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webviewAuthUITests.swift; sourceTree = "<group>"; };
 		CEB51DEA1F1E031E003D757D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEBA2B421F21D4C50012B3E9 /* LogOutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogOutViewController.swift; sourceTree = "<group>"; };
+		CEBA2B441F21E13F0012B3E9 /* DecisionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecisionViewController.swift; sourceTree = "<group>"; };
+		CED583761F28BA140040D724 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +110,11 @@
 				CEB51DC81F1E031E003D757D /* AppDelegate.swift */,
 				CEB51DCA1F1E031E003D757D /* ViewController.swift */,
 				CEB51DCC1F1E031E003D757D /* Main.storyboard */,
+				CED583761F28BA140040D724 /* TableViewCell.swift */,
+				CE9447A11F276816000C4200 /* PeerssViewController.swift */,
+				CEBA2B441F21E13F0012B3E9 /* DecisionViewController.swift */,
+				CEBA2B421F21D4C50012B3E9 /* LogOutViewController.swift */,
+				CE29D65B1F1FC9DE00F0E288 /* DetailsViewController.swift */,
 				CEB51DCF1F1E031E003D757D /* Assets.xcassets */,
 				CEB51DD11F1E031E003D757D /* LaunchScreen.storyboard */,
 				CEB51DD41F1E031E003D757D /* Info.plist */,
@@ -259,8 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE9447A21F276816000C4200 /* PeerssViewController.swift in Sources */,
+				CEBA2B451F21E1400012B3E9 /* DecisionViewController.swift in Sources */,
 				CEB51DCB1F1E031E003D757D /* ViewController.swift in Sources */,
 				CEB51DC91F1E031E003D757D /* AppDelegate.swift in Sources */,
+				CEBA2B431F21D4C50012B3E9 /* LogOutViewController.swift in Sources */,
+				CED583771F28BA140040D724 /* TableViewCell.swift in Sources */,
+				CE29D65C1F1FC9DE00F0E288 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +527,7 @@
 				CEB51DEF1F1E031E003D757D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEB51DF01F1E031E003D757D /* Build configuration list for PBXNativeTarget "webviewAuthTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +536,7 @@
 				CEB51DF21F1E031E003D757D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEB51DF31F1E031E003D757D /* Build configuration list for PBXNativeTarget "webviewAuthUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +545,7 @@
 				CEB51DF51F1E031E003D757D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
